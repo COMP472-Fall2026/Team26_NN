@@ -1,0 +1,22 @@
+{
+  "run_id": "k1_man_logtfidf",
+  "dataset": "image",
+  "model": "knn",
+  "transform": "logtfidf",
+  "params": {
+    "n_classes": 50,
+    "k": 1,
+    "metric": "manhattan",
+    "weights": "uniform"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "65f41d1",
+  "timestamp": "2026-11-05T13:54:34",
+  "train_acc": 1.0,
+  "val_acc": 0.43925,
+  "fit_seconds": 0.006183749996125698,
+  "predict_seconds": 7.907122375094332,
+  "model_bytes": 64128419,
+  "notes": "k-NN sweep"
+}

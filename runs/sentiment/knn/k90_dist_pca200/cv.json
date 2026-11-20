@@ -1,0 +1,28 @@
+{
+  "run_id": "k90_dist_pca200",
+  "dataset": "sentiment",
+  "model": "knn",
+  "transform": "pca200",
+  "params": {
+    "n_classes": 3,
+    "k": 90,
+    "metric": "euclidean",
+    "weights": "distance"
+  },
+  "owner": "p1",
+  "git_commit": "cf7663e-dirty",
+  "timestamp": "2026-11-13T18:01:34",
+  "n_folds": 5,
+  "fold_accs": [
+    0.5875,
+    0.57875,
+    0.587083,
+    0.597083,
+    0.58875
+  ],
+  "mean_acc": 0.5878333333333334,
+  "std_acc": 0.006511208285205845,
+  "fixed_split_val_acc": 0.59125,
+  "fit_seconds_mean": 0.003633608017116785,
+  "notes": "5-fold check"
+}

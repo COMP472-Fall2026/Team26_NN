@@ -1,0 +1,22 @@
+{
+  "run_id": "k1_cos_raw",
+  "dataset": "image",
+  "model": "knn",
+  "transform": "raw",
+  "params": {
+    "n_classes": 50,
+    "k": 1,
+    "metric": "cosine",
+    "weights": "uniform"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "65f41d1",
+  "timestamp": "2026-11-05T13:51:02",
+  "train_acc": 1.0,
+  "val_acc": 0.53075,
+  "fit_seconds": 0.003142083063721657,
+  "predict_seconds": 0.13697233295533806,
+  "model_bytes": 64128416,
+  "notes": "k-NN sweep"
+}

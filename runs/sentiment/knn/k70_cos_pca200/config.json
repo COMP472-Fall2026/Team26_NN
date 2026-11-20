@@ -1,0 +1,22 @@
+{
+  "run_id": "k70_cos_pca200",
+  "dataset": "sentiment",
+  "model": "knn",
+  "transform": "pca200",
+  "params": {
+    "n_classes": 3,
+    "k": 70,
+    "metric": "cosine",
+    "weights": "uniform"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "65f41d1",
+  "timestamp": "2026-11-05T13:47:54",
+  "train_acc": 0.6117708333333334,
+  "val_acc": 0.5829166666666666,
+  "fit_seconds": 0.0007994580082595348,
+  "predict_seconds": 0.19844058295711875,
+  "model_bytes": 15437214,
+  "notes": "k-NN sweep"
+}

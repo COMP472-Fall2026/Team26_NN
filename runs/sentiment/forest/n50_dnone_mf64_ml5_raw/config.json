@@ -1,0 +1,27 @@
+{
+  "run_id": "n50_dnone_mf64_ml5_raw",
+  "dataset": "sentiment",
+  "model": "forest",
+  "transform": "raw",
+  "params": {
+    "n_classes": 3,
+    "n_trees": 50,
+    "max_depth": null,
+    "max_features": 64,
+    "min_samples_leaf": 5,
+    "bootstrap": true,
+    "criterion": "gini",
+    "n_bins": 64,
+    "seed": 42
+  },
+  "seed": 42,
+  "owner": "p2",
+  "git_commit": "75f62f5-dirty",
+  "timestamp": "2026-11-13T16:28:13",
+  "train_acc": 0.9977083333333333,
+  "val_acc": 0.5720833333333334,
+  "fit_seconds": 1039.8444228000008,
+  "predict_seconds": 4.018702100031078,
+  "model_bytes": 26074043,
+  "notes": "targeted forest leaf-size refinement"
+}

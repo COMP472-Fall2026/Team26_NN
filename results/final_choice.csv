@@ -1,0 +1,31 @@
+dataset,candidate,n_models,runs,mean_acc,std_acc,fold_accs,gain_vs_best_single,folds_better
+image,forest + knn,2,n200_dnone_mfsqrt_logtfidf + k100_cos_exp0.03_logtfidf,0.602450,0.007438,0.6000 0.5938 0.6040 0.6005 0.6140,0.005650,5
+image,knn,1,k100_cos_exp0.03_logtfidf,0.596800,0.009617,0.5938 0.5833 0.6030 0.5955 0.6085,0.000000,0
+image,forest + knn + nn,3,n200_dnone_mfsqrt_logtfidf + k100_cos_exp0.03_logtfidf + h256_lr1e-3_do0.2_wd0_adam_gelu_bs256_standardise,0.586050,0.010092,0.5765 0.5793 0.6008 0.5817 0.5920,-0.010750,0
+image,knn + nn,2,k100_cos_exp0.03_logtfidf + h256_lr1e-3_do0.2_wd0_adam_gelu_bs256_standardise,0.584250,0.009516,0.5763 0.5755 0.5980 0.5820 0.5895,-0.012550,0
+image,forest + knn + nn + tree,4,n200_dnone_mfsqrt_logtfidf + k100_cos_exp0.03_logtfidf + h256_lr1e-3_do0.2_wd0_adam_gelu_bs256_standardise + dnone_ms2_ml10_gini_mf32_b256_pca50,0.533500,0.007810,0.5245 0.5285 0.5375 0.5325 0.5445,-0.063300,0
+image,knn + nn + tree,3,k100_cos_exp0.03_logtfidf + h256_lr1e-3_do0.2_wd0_adam_gelu_bs256_standardise + dnone_ms2_ml10_gini_mf32_b256_pca50,0.527150,0.007296,0.5190 0.5218 0.5325 0.5260 0.5365,-0.069650,0
+image,forest + knn + tree,3,n200_dnone_mfsqrt_logtfidf + k100_cos_exp0.03_logtfidf + dnone_ms2_ml10_gini_mf32_b256_pca50,0.491350,0.006802,0.4853 0.4883 0.4973 0.4860 0.5000,-0.105450,0
+image,knn + tree,2,k100_cos_exp0.03_logtfidf + dnone_ms2_ml10_gini_mf32_b256_pca50,0.475400,0.007459,0.4693 0.4725 0.4825 0.4685 0.4843,-0.121400,0
+image,forest + nn,2,n200_dnone_mfsqrt_logtfidf + h256_lr1e-3_do0.2_wd0_adam_gelu_bs256_standardise,0.369550,0.005230,0.3680 0.3618 0.3733 0.3695 0.3752,-0.227250,0
+image,nn,1,h256_lr1e-3_do0.2_wd0_adam_gelu_bs256_standardise,0.349400,0.006774,0.3443 0.3410 0.3523 0.3515 0.3580,-0.247400,0
+image,forest,1,n200_dnone_mfsqrt_logtfidf,0.332300,0.004233,0.3332 0.3275 0.3365 0.3282 0.3360,-0.264500,0
+image,forest + nn + tree,3,n200_dnone_mfsqrt_logtfidf + h256_lr1e-3_do0.2_wd0_adam_gelu_bs256_standardise + dnone_ms2_ml10_gini_mf32_b256_pca50,0.306350,0.008603,0.3028 0.3003 0.3028 0.3045 0.3215,-0.290450,0
+image,nn + tree,2,h256_lr1e-3_do0.2_wd0_adam_gelu_bs256_standardise + dnone_ms2_ml10_gini_mf32_b256_pca50,0.284850,0.006902,0.2818 0.2790 0.2828 0.2840 0.2968,-0.311950,0
+image,forest + tree,2,n200_dnone_mfsqrt_logtfidf + dnone_ms2_ml10_gini_mf32_b256_pca50,0.154500,0.001871,0.1537 0.1568 0.1530 0.1527 0.1562,-0.442300,0
+image,tree,1,dnone_ms2_ml10_gini_mf32_b256_pca50,0.123850,0.001925,0.1215 0.1260 0.1242 0.1222 0.1253,-0.472950,0
+sentiment,nn,1,h256x64_lr1e-4_do0_wd0_adam_raw,0.679583,0.010479,0.6842 0.6754 0.6833 0.6913 0.6637,0.000000,0
+sentiment,forest + nn,2,n100_dnone_mf64_raw + h256x64_lr1e-4_do0_wd0_adam_raw,0.676667,0.013556,0.6863 0.6667 0.6758 0.6937 0.6608,-0.002917,2
+sentiment,knn + nn,2,k100_exp2_pca200 + h256x64_lr1e-4_do0_wd0_adam_raw,0.676583,0.012698,0.6867 0.6646 0.6796 0.6900 0.6621,-0.003000,1
+sentiment,forest + knn + nn,3,n100_dnone_mf64_raw + k100_exp2_pca200 + h256x64_lr1e-4_do0_wd0_adam_raw,0.673000,0.015987,0.6871 0.6550 0.6779 0.6879 0.6571,-0.006583,1
+sentiment,knn + nn + tree,3,k100_exp2_pca200 + h256x64_lr1e-4_do0_wd0_adam_raw + d5_ms2_ml1_gini_n9600_raw,0.660167,0.014067,0.6721 0.6438 0.6637 0.6742 0.6471,-0.019417,0
+sentiment,forest + nn + tree,3,n100_dnone_mf64_raw + h256x64_lr1e-4_do0_wd0_adam_raw + d5_ms2_ml1_gini_n9600_raw,0.659833,0.012681,0.6683 0.6496 0.6617 0.6750 0.6446,-0.019750,0
+sentiment,nn + tree,2,h256x64_lr1e-4_do0_wd0_adam_raw + d5_ms2_ml1_gini_n9600_raw,0.659083,0.011053,0.6654 0.6529 0.6667 0.6679 0.6425,-0.020500,0
+sentiment,forest + knn + nn + tree,4,n100_dnone_mf64_raw + k100_exp2_pca200 + h256x64_lr1e-4_do0_wd0_adam_raw + d5_ms2_ml1_gini_n9600_raw,0.658750,0.012977,0.6683 0.6425 0.6617 0.6729 0.6483,-0.020833,0
+sentiment,forest + knn,2,n100_dnone_mf64_raw + k100_exp2_pca200,0.613000,0.016440,0.6238 0.5850 0.6204 0.6242 0.6117,-0.066583,0
+sentiment,forest,1,n100_dnone_mf64_raw,0.599583,0.012416,0.6158 0.5854 0.6058 0.6017 0.5892,-0.080000,0
+sentiment,knn,1,k100_exp2_pca200,0.595417,0.014203,0.6079 0.5737 0.5988 0.6071 0.5896,-0.084167,0
+sentiment,forest + knn + tree,3,n100_dnone_mf64_raw + k100_exp2_pca200 + d5_ms2_ml1_gini_n9600_raw,0.591250,0.014121,0.6033 0.5754 0.5904 0.6075 0.5796,-0.088333,0
+sentiment,knn + tree,2,k100_exp2_pca200 + d5_ms2_ml1_gini_n9600_raw,0.567833,0.012626,0.5842 0.5596 0.5571 0.5787 0.5596,-0.111750,0
+sentiment,forest + tree,2,n100_dnone_mf64_raw + d5_ms2_ml1_gini_n9600_raw,0.545250,0.008501,0.5554 0.5437 0.5358 0.5525 0.5387,-0.134333,0
+sentiment,tree,1,d5_ms2_ml1_gini_n9600_raw,0.483417,0.013735,0.4808 0.4871 0.4625 0.5004 0.4863,-0.196167,0

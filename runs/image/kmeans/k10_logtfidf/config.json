@@ -1,0 +1,23 @@
+{
+  "run_id": "k10_logtfidf",
+  "dataset": "image",
+  "model": "kmeans",
+  "transform": "logtfidf",
+  "params": {
+    "n_clusters": 10,
+    "n_init": 10,
+    "max_iter": 300,
+    "tol": 0.0001,
+    "seed": 42
+  },
+  "owner": "p3",
+  "git_commit": "a72453e-dirty",
+  "timestamp": "2026-11-10T14:33:08",
+  "train_ari": 0.010370969083381436,
+  "train_nmi": 0.05380001580016509,
+  "val_ari": 0.009501008497352737,
+  "val_nmi": 0.0643973880907783,
+  "inertia": 12548.3515625,
+  "fit_seconds": 41.86804045800818,
+  "notes": "clustering sweep"
+}

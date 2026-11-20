@@ -1,0 +1,22 @@
+{
+  "run_id": "k1_cos_dist_logtfidf",
+  "dataset": "image",
+  "model": "knn",
+  "transform": "logtfidf",
+  "params": {
+    "n_classes": 50,
+    "k": 1,
+    "metric": "cosine",
+    "weights": "distance"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "65f41d1",
+  "timestamp": "2026-11-05T13:53:53",
+  "train_acc": 1.0,
+  "val_acc": 0.57675,
+  "fit_seconds": 0.00321779097430408,
+  "predict_seconds": 0.14352137502282858,
+  "model_bytes": 64128417,
+  "notes": "k-NN sweep"
+}

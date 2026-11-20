@@ -1,0 +1,22 @@
+{
+  "run_id": "k1_dist_standardise",
+  "dataset": "image",
+  "model": "knn",
+  "transform": "standardise",
+  "params": {
+    "n_classes": 50,
+    "k": 1,
+    "metric": "euclidean",
+    "weights": "distance"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "65f41d1",
+  "timestamp": "2026-11-05T13:52:25",
+  "train_acc": 1.0,
+  "val_acc": 0.43425,
+  "fit_seconds": 0.0017690419917926192,
+  "predict_seconds": 0.17441099998541176,
+  "model_bytes": 32192408,
+  "notes": "k-NN sweep"
+}

@@ -1,0 +1,22 @@
+{
+  "run_id": "k20_dist_pca200",
+  "dataset": "sentiment",
+  "model": "knn",
+  "transform": "pca200",
+  "params": {
+    "n_classes": 3,
+    "k": 20,
+    "metric": "euclidean",
+    "weights": "distance"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "65f41d1",
+  "timestamp": "2026-11-05T13:48:13",
+  "train_acc": 1.0,
+  "val_acc": 0.5766666666666667,
+  "fit_seconds": 0.00048083404544740915,
+  "predict_seconds": 0.23045033402740955,
+  "model_bytes": 7795607,
+  "notes": "k-NN sweep"
+}

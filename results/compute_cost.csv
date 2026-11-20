@@ -1,0 +1,9 @@
+dataset,model,run_id,transform,train_acc,val_acc,fit_seconds,predict_seconds,model_bytes,model_size_mib,config_path
+image,knn,k1_dist_logtfidf,logtfidf,1.0,0.57675,0.0017638748977333307,0.18173387506976724,32192408,30.701072692871094,runs\image\knn\k1_dist_logtfidf\config.json
+image,tree,dnone_ms2_ml10_gini_mf32_b256_pca50,pca50,0.383,0.132,22.264729300048202,0.03050739993341267,727987,0.6942625045776367,runs\image\tree\dnone_ms2_ml10_gini_mf32_b256_pca50\config.json
+image,forest,n200_dnone_mfsqrt_logtfidf,logtfidf,1.0,0.32125,5672.342862099991,14.316918299999088,783988096,747.6693115234375,runs\image\forest\n200_dnone_mfsqrt_logtfidf\config.json
+image,nn,h256_lr1e-3_do0.2_wd0_adam_gelu_bs256_standardise,standardise,0.6880625,0.34325,6.0206055419985205,0.008107249974273145,568266,0.5419406890869141,runs\image\nn\h256_lr1e-3_do0.2_wd0_adam_gelu_bs256_standardise\config.json
+sentiment,knn,k90_dist_pca200,pca200,1.0,0.59125,0.00047195900697261095,0.23955874994862825,7795607,7.434470176696777,runs\sentiment\knn\k90_dist_pca200\config.json
+sentiment,tree,d4_ms2_ml5_gini_raw,raw,0.5127083333333333,0.5033333333333333,10.272300400072709,0.07625399995595217,409000,0.39005279541015625,runs\sentiment\tree\d4_ms2_ml5_gini_raw\config.json
+sentiment,forest,n100_dnone_mf64_raw,raw,1.0,0.6016666666666667,2431.2013815999962,8.366667599999346,57703624,55.03046417236328,runs\sentiment\forest\n100_dnone_mf64_raw\config.json
+sentiment,nn,h256_lr1e-3_do0_wd0_adam_raw,raw,0.7265625,0.6679166666666667,3.078857333981432,0.003181957988999784,794360,0.7575607299804688,runs\sentiment\nn\h256_lr1e-3_do0_wd0_adam_raw\config.json

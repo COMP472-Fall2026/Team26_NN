@@ -1,0 +1,26 @@
+{
+  "run_id": "d10_ms10_ml1_gini_raw",
+  "dataset": "image",
+  "model": "tree",
+  "transform": "raw",
+  "params": {
+    "n_classes": 50,
+    "criterion": "gini",
+    "max_depth": 10,
+    "min_samples_split": 10,
+    "min_samples_leaf": 1,
+    "n_bins": 64,
+    "max_features": null,
+    "seed": 42
+  },
+  "seed": 42,
+  "owner": "p2",
+  "git_commit": "1515a16-dirty",
+  "timestamp": "2026-11-05T15:34:31",
+  "train_acc": 0.097125,
+  "val_acc": 0.06825,
+  "fit_seconds": 5.098222000000533,
+  "predict_seconds": 0.031107900000279187,
+  "model_bytes": 111713,
+  "notes": "tree sweep"
+}

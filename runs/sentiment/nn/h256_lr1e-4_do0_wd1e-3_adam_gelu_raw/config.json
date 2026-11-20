@@ -1,0 +1,31 @@
+{
+  "run_id": "h256_lr1e-4_do0_wd1e-3_adam_gelu_raw",
+  "dataset": "sentiment",
+  "model": "nn",
+  "transform": "raw",
+  "params": {
+    "n_classes": 3,
+    "hidden": [
+      256
+    ],
+    "activation": "gelu",
+    "dropout": 0.0,
+    "lr": 0.0001,
+    "weight_decay": 0.001,
+    "optimizer": "adam",
+    "batch_size": 64,
+    "max_epochs": 100,
+    "patience": 15,
+    "seed": 42
+  },
+  "seed": 42,
+  "owner": "p3",
+  "git_commit": "71c5781-dirty",
+  "timestamp": "2026-11-09T21:25:30",
+  "train_acc": 0.7176041666666667,
+  "val_acc": 0.6616666666666666,
+  "fit_seconds": 7.326827333017718,
+  "predict_seconds": 0.0031436249846592546,
+  "model_bytes": 795206,
+  "notes": "network sweep: combined; best_epoch=28"
+}

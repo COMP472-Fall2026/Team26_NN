@@ -1,0 +1,28 @@
+{
+  "run_id": "k1_cos_logtfidf",
+  "dataset": "image",
+  "model": "knn",
+  "transform": "logtfidf",
+  "params": {
+    "n_classes": 50,
+    "k": 1,
+    "metric": "cosine",
+    "weights": "uniform"
+  },
+  "owner": "p1",
+  "git_commit": "cf7663e-dirty",
+  "timestamp": "2026-11-13T18:01:32",
+  "n_folds": 5,
+  "fold_accs": [
+    0.5735,
+    0.566,
+    0.5865,
+    0.5715,
+    0.59575
+  ],
+  "mean_acc": 0.57865,
+  "std_acc": 0.01216244218896848,
+  "fixed_split_val_acc": 0.57675,
+  "fit_seconds_mean": 0.05555843343026936,
+  "notes": "5-fold check"
+}

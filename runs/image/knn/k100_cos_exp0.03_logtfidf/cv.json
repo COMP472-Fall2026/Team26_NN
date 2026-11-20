@@ -1,0 +1,29 @@
+{
+  "run_id": "k100_cos_exp0.03_logtfidf",
+  "dataset": "image",
+  "model": "knn",
+  "transform": "logtfidf",
+  "params": {
+    "n_classes": 50,
+    "k": 100,
+    "metric": "cosine",
+    "weights": "exp",
+    "temperature": 0.03
+  },
+  "owner": "p1",
+  "git_commit": "9e653eb-dirty",
+  "timestamp": "2026-11-16T00:28:07",
+  "n_folds": 5,
+  "fold_accs": [
+    0.59375,
+    0.58325,
+    0.603,
+    0.5955,
+    0.6085
+  ],
+  "mean_acc": 0.5968,
+  "std_acc": 0.009616717215349522,
+  "fixed_split_val_acc": 0.59675,
+  "fit_seconds_mean": 0.08751612480264157,
+  "notes": "5-fold check"
+}

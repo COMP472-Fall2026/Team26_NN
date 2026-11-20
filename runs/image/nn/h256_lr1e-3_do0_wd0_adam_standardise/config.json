@@ -1,0 +1,31 @@
+{
+  "run_id": "h256_lr1e-3_do0_wd0_adam_standardise",
+  "dataset": "image",
+  "model": "nn",
+  "transform": "standardise",
+  "params": {
+    "n_classes": 50,
+    "hidden": [
+      256
+    ],
+    "activation": "relu",
+    "dropout": 0.0,
+    "lr": 0.001,
+    "weight_decay": 0.0,
+    "optimizer": "adam",
+    "batch_size": 64,
+    "max_epochs": 100,
+    "patience": 15,
+    "seed": 42
+  },
+  "seed": 42,
+  "owner": "p3",
+  "git_commit": "71c5781-dirty",
+  "timestamp": "2026-11-09T21:26:06",
+  "train_acc": 0.7335,
+  "val_acc": 0.336,
+  "fit_seconds": 4.368290167010855,
+  "predict_seconds": 0.004414374998304993,
+  "model_bytes": 568175,
+  "notes": "network sweep: one-at-a-time; best_epoch=3"
+}

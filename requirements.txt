@@ -1,0 +1,9 @@
+# Versions that produced the committed results (full list: ENVIRONMENT.txt). Python 3.13.6.
+numpy==2.5.4
+pandas==3.1.0
+matplotlib==3.11.2
+torch==2.14.1
+scikit-learn==1.9.1
+jupyter==1.1.1
+nbconvert==7.17.2
+markdown==3.11.3

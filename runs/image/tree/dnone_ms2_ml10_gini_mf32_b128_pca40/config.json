@@ -1,0 +1,26 @@
+{
+  "run_id": "dnone_ms2_ml10_gini_mf32_b128_pca40",
+  "dataset": "image",
+  "model": "tree",
+  "transform": "pca40",
+  "params": {
+    "n_classes": 50,
+    "criterion": "gini",
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 10,
+    "n_bins": 128,
+    "max_features": 32,
+    "seed": 42
+  },
+  "seed": 42,
+  "owner": "p2",
+  "git_commit": "75f62f5-dirty",
+  "timestamp": "2026-11-13T20:00:37",
+  "train_acc": 0.38175,
+  "val_acc": 0.13125,
+  "fit_seconds": 15.215282999910414,
+  "predict_seconds": 0.027670699986629188,
+  "model_bytes": 667889,
+  "notes": "small local image-tree PCA/feature-count check; transforms fitted on train split"
+}

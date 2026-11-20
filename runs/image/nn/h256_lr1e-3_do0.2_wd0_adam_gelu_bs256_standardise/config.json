@@ -1,0 +1,31 @@
+{
+  "run_id": "h256_lr1e-3_do0.2_wd0_adam_gelu_bs256_standardise",
+  "dataset": "image",
+  "model": "nn",
+  "transform": "standardise",
+  "params": {
+    "n_classes": 50,
+    "hidden": [
+      256
+    ],
+    "activation": "gelu",
+    "dropout": 0.2,
+    "lr": 0.001,
+    "weight_decay": 0.0,
+    "optimizer": "adam",
+    "batch_size": 256,
+    "max_epochs": 100,
+    "patience": 15,
+    "seed": 42
+  },
+  "seed": 42,
+  "owner": "p3",
+  "git_commit": "71c5781-dirty",
+  "timestamp": "2026-11-09T21:28:17",
+  "train_acc": 0.6880625,
+  "val_acc": 0.34325,
+  "fit_seconds": 6.0206055419985205,
+  "predict_seconds": 0.008107249974273145,
+  "model_bytes": 568266,
+  "notes": "network sweep: combined; best_epoch=5"
+}

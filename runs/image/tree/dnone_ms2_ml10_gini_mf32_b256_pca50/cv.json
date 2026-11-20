@@ -1,0 +1,32 @@
+{
+  "run_id": "dnone_ms2_ml10_gini_mf32_b256_pca50",
+  "dataset": "image",
+  "model": "tree",
+  "transform": "pca50",
+  "params": {
+    "n_classes": 50,
+    "criterion": "gini",
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 10,
+    "n_bins": 256,
+    "max_features": 32,
+    "seed": 42
+  },
+  "owner": "p1",
+  "git_commit": "4a6b45e-dirty",
+  "timestamp": "2026-11-15T01:14:43",
+  "n_folds": 5,
+  "fold_accs": [
+    0.1215,
+    0.126,
+    0.12425,
+    0.12225,
+    0.12525
+  ],
+  "mean_acc": 0.12384999999999999,
+  "std_acc": 0.0019251623308178473,
+  "fixed_split_val_acc": 0.132,
+  "fit_seconds_mean": 28.9464178748196,
+  "notes": "5-fold check"
+}

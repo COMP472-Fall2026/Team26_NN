@@ -1,0 +1,26 @@
+{
+  "run_id": "dnone_ms2_ml1_gini_n9600_raw",
+  "dataset": "sentiment",
+  "model": "tree",
+  "transform": "raw",
+  "params": {
+    "n_classes": 3,
+    "criterion": "gini",
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "n_bins": 64,
+    "max_features": null,
+    "seed": 42
+  },
+  "seed": 42,
+  "owner": "p2",
+  "git_commit": "b3e6c96-dirty",
+  "timestamp": "2026-11-13T12:23:01",
+  "train_acc": 1.0,
+  "val_acc": 0.44416666666666665,
+  "fit_seconds": 258.69210779992864,
+  "predict_seconds": 0.08282050001434982,
+  "model_bytes": 572453,
+  "notes": "tree sweep"
+}

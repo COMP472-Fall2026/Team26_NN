@@ -1,0 +1,32 @@
+{
+  "run_id": "h256x64_lr1e-3_do0_wd0_adam_tanh_raw",
+  "dataset": "sentiment",
+  "model": "nn",
+  "transform": "raw",
+  "params": {
+    "n_classes": 3,
+    "hidden": [
+      256,
+      64
+    ],
+    "activation": "tanh",
+    "dropout": 0.0,
+    "lr": 0.001,
+    "weight_decay": 0.0,
+    "optimizer": "adam",
+    "batch_size": 64,
+    "max_epochs": 100,
+    "patience": 15,
+    "seed": 42
+  },
+  "seed": 42,
+  "owner": "p3",
+  "git_commit": "71c5781-dirty",
+  "timestamp": "2026-11-09T21:24:46",
+  "train_acc": 0.715625,
+  "val_acc": 0.6595833333333333,
+  "fit_seconds": 4.354002499952912,
+  "predict_seconds": 0.005249666981399059,
+  "model_bytes": 858807,
+  "notes": "network sweep: one-at-a-time; best_epoch=5"
+}

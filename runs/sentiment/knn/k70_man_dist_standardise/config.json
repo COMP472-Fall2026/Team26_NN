@@ -1,0 +1,22 @@
+{
+  "run_id": "k70_man_dist_standardise",
+  "dataset": "sentiment",
+  "model": "knn",
+  "transform": "standardise",
+  "params": {
+    "n_classes": 3,
+    "k": 70,
+    "metric": "manhattan",
+    "weights": "distance"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "65f41d1",
+  "timestamp": "2026-11-05T13:47:28",
+  "train_acc": 1.0,
+  "val_acc": 0.5891666666666666,
+  "fit_seconds": 0.005496166064403951,
+  "predict_seconds": 5.622896875021979,
+  "model_bytes": 59059620,
+  "notes": "k-NN sweep"
+}

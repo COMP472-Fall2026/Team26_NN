@@ -1,0 +1,22 @@
+{
+  "run_id": "k37_cos_dist_pca100",
+  "dataset": "sentiment",
+  "model": "knn",
+  "transform": "pca100",
+  "params": {
+    "n_classes": 3,
+    "k": 37,
+    "metric": "cosine",
+    "weights": "distance"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "65f41d1",
+  "timestamp": "2026-11-05T13:47:42",
+  "train_acc": 1.0,
+  "val_acc": 0.5854166666666667,
+  "fit_seconds": 0.00046187499538064003,
+  "predict_seconds": 0.18980645795818418,
+  "model_bytes": 7757215,
+  "notes": "k-NN sweep"
+}

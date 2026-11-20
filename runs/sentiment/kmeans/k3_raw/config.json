@@ -1,0 +1,23 @@
+{
+  "run_id": "k3_raw",
+  "dataset": "sentiment",
+  "model": "kmeans",
+  "transform": "raw",
+  "params": {
+    "n_clusters": 3,
+    "n_init": 10,
+    "max_iter": 300,
+    "tol": 0.0001,
+    "seed": 42
+  },
+  "owner": "p3",
+  "git_commit": "ea27eed-dirty",
+  "timestamp": "2026-11-09T21:45:21",
+  "train_ari": 0.014689132019754499,
+  "train_nmi": 0.01457950797607247,
+  "val_ari": 0.015235266306900851,
+  "val_nmi": 0.015349084558587692,
+  "inertia": 252240.8125,
+  "fit_seconds": 10.679388332995586,
+  "notes": ""
+}

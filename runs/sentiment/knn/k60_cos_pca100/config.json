@@ -1,0 +1,22 @@
+{
+  "run_id": "k60_cos_pca100",
+  "dataset": "sentiment",
+  "model": "knn",
+  "transform": "pca100",
+  "params": {
+    "n_classes": 3,
+    "k": 60,
+    "metric": "cosine",
+    "weights": "uniform"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "65f41d1",
+  "timestamp": "2026-11-05T13:47:41",
+  "train_acc": 0.6122916666666667,
+  "val_acc": 0.5820833333333333,
+  "fit_seconds": 0.00046829204075038433,
+  "predict_seconds": 0.18630529195070267,
+  "model_bytes": 7757214,
+  "notes": "k-NN sweep"
+}

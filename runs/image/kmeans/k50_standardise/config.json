@@ -1,0 +1,23 @@
+{
+  "run_id": "k50_standardise",
+  "dataset": "image",
+  "model": "kmeans",
+  "transform": "standardise",
+  "params": {
+    "n_clusters": 50,
+    "n_init": 10,
+    "max_iter": 300,
+    "tol": 0.0001,
+    "seed": 42
+  },
+  "owner": "p3",
+  "git_commit": "ea27eed-dirty",
+  "timestamp": "2026-11-09T21:46:22",
+  "train_ari": 0.02812216024912161,
+  "train_nmi": 0.13506577013836,
+  "val_ari": 0.027018353091066025,
+  "val_nmi": 0.1831771005792309,
+  "inertia": 6886986.0,
+  "fit_seconds": 19.63745400001062,
+  "notes": ""
+}

@@ -1,0 +1,37 @@
+{
+  "run_id": "h256_lr1e-3_do0_wd0_adam_raw",
+  "dataset": "sentiment",
+  "model": "nn",
+  "transform": "raw",
+  "params": {
+    "n_classes": 3,
+    "hidden": [
+      256
+    ],
+    "activation": "relu",
+    "dropout": 0.0,
+    "lr": 0.001,
+    "weight_decay": 0.0,
+    "optimizer": "adam",
+    "batch_size": 64,
+    "max_epochs": 100,
+    "patience": 15,
+    "seed": 42
+  },
+  "owner": "p1",
+  "git_commit": "cf7663e-dirty",
+  "timestamp": "2026-11-13T18:11:40",
+  "n_folds": 5,
+  "fold_accs": [
+    0.682083,
+    0.661667,
+    0.676667,
+    0.690833,
+    0.652917
+  ],
+  "mean_acc": 0.6728333333333334,
+  "std_acc": 0.015375508121684945,
+  "fixed_split_val_acc": 0.6679166666666667,
+  "fit_seconds_mean": 2.4078318750252947,
+  "notes": "5-fold check"
+}

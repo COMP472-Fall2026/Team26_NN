@@ -1,0 +1,27 @@
+{
+  "run_id": "n50_d20_mf16_raw",
+  "dataset": "sentiment",
+  "model": "forest",
+  "transform": "raw",
+  "params": {
+    "n_classes": 3,
+    "n_trees": 50,
+    "max_depth": 20,
+    "max_features": 16,
+    "min_samples_leaf": 1,
+    "bootstrap": true,
+    "criterion": "gini",
+    "n_bins": 64,
+    "seed": 42
+  },
+  "seed": 42,
+  "owner": "p2",
+  "git_commit": "c6d00cf-dirty",
+  "timestamp": "2026-11-08T14:45:14",
+  "train_acc": 1.0,
+  "val_acc": 0.56875,
+  "fit_seconds": 567.6253902000026,
+  "predict_seconds": 8.907527400006074,
+  "model_bytes": 30670222,
+  "notes": "forest sweep"
+}

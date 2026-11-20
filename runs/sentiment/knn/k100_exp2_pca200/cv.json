@@ -1,0 +1,29 @@
+{
+  "run_id": "k100_exp2_pca200",
+  "dataset": "sentiment",
+  "model": "knn",
+  "transform": "pca200",
+  "params": {
+    "n_classes": 3,
+    "k": 100,
+    "metric": "euclidean",
+    "weights": "exp",
+    "temperature": 2.0
+  },
+  "owner": "p1",
+  "git_commit": "9e653eb-dirty",
+  "timestamp": "2026-11-16T00:28:07",
+  "n_folds": 5,
+  "fold_accs": [
+    0.607917,
+    0.57375,
+    0.59875,
+    0.607083,
+    0.589583
+  ],
+  "mean_acc": 0.5954166666666666,
+  "std_acc": 0.014203383790882759,
+  "fixed_split_val_acc": 0.6054166666666667,
+  "fit_seconds_mean": 0.0012619168031960727,
+  "notes": "5-fold check"
+}

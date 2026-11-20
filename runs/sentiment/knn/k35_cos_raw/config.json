@@ -1,0 +1,22 @@
+{
+  "run_id": "k35_cos_raw",
+  "dataset": "sentiment",
+  "model": "knn",
+  "transform": "raw",
+  "params": {
+    "n_classes": 3,
+    "k": 35,
+    "metric": "cosine",
+    "weights": "uniform"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "65f41d1",
+  "timestamp": "2026-11-05T13:45:38",
+  "train_acc": 0.6205208333333333,
+  "val_acc": 0.5829166666666666,
+  "fit_seconds": 0.004799957969225943,
+  "predict_seconds": 0.24685541598591954,
+  "model_bytes": 59059616,
+  "notes": "k-NN sweep"
+}

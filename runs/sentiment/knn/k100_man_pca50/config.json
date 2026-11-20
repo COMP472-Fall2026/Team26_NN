@@ -1,0 +1,22 @@
+{
+  "run_id": "k100_man_pca50",
+  "dataset": "sentiment",
+  "model": "knn",
+  "transform": "pca50",
+  "params": {
+    "n_classes": 3,
+    "k": 100,
+    "metric": "manhattan",
+    "weights": "uniform"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "65f41d1",
+  "timestamp": "2026-11-05T13:47:35",
+  "train_acc": 0.6167708333333334,
+  "val_acc": 0.5866666666666667,
+  "fit_seconds": 0.00036795902997255325,
+  "predict_seconds": 0.553388333064504,
+  "model_bytes": 3917217,
+  "notes": "k-NN sweep"
+}

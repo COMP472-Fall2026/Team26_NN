@@ -1,0 +1,136 @@
+finalist,method,fold,negative,neutral,positive
+forest n100_dnone_mf64_raw,prediction share,0,0.4816,0.2812,0.2372
+forest n100_dnone_mf64_raw,confusion inversion,0,0.5175,0.3155,0.1669
+forest n100_dnone_mf64_raw,EM,0,0.7783,0.1724,0.0493
+forest n100_dnone_mf64_raw,prediction share,1,0.4734,0.285,0.2416
+forest n100_dnone_mf64_raw,confusion inversion,1,0.5098,0.3276,0.1625
+forest n100_dnone_mf64_raw,EM,1,0.7109,0.2192,0.07
+forest n100_dnone_mf64_raw,prediction share,2,0.4822,0.2882,0.2296
+forest n100_dnone_mf64_raw,confusion inversion,2,0.5367,0.2805,0.1828
+forest n100_dnone_mf64_raw,EM,2,0.7308,0.2311,0.0381
+forest n100_dnone_mf64_raw,prediction share,3,0.4864,0.2768,0.2368
+forest n100_dnone_mf64_raw,confusion inversion,3,0.5341,0.263,0.2029
+forest n100_dnone_mf64_raw,EM,3,0.7753,0.1639,0.0607
+forest n100_dnone_mf64_raw,prediction share,4,0.4688,0.285,0.2462
+forest n100_dnone_mf64_raw,confusion inversion,4,0.5289,0.3121,0.159
+forest n100_dnone_mf64_raw,EM,4,0.7256,0.1815,0.0929
+knn k100_exp2_pca200,prediction share,0,0.59,0.1026,0.3074
+knn k100_exp2_pca200,confusion inversion,0,0.6638,0.027,0.3091
+knn k100_exp2_pca200,EM,0,0.8728,0.0,0.1272
+knn k100_exp2_pca200,prediction share,1,0.5924,0.1054,0.3022
+knn k100_exp2_pca200,confusion inversion,1,0.7044,0.0,0.2956
+knn k100_exp2_pca200,EM,1,0.8898,0.0,0.1102
+knn k100_exp2_pca200,prediction share,2,0.6048,0.1138,0.2814
+knn k100_exp2_pca200,confusion inversion,2,0.726,0.0071,0.2669
+knn k100_exp2_pca200,EM,2,0.8904,0.0,0.1096
+knn k100_exp2_pca200,prediction share,3,0.5942,0.0984,0.3074
+knn k100_exp2_pca200,confusion inversion,3,0.6629,0.0,0.3371
+knn k100_exp2_pca200,EM,3,0.8642,0.0,0.1358
+knn k100_exp2_pca200,prediction share,4,0.5856,0.0928,0.3216
+knn k100_exp2_pca200,confusion inversion,4,0.6792,0.0,0.3208
+knn k100_exp2_pca200,EM,4,0.847,0.0,0.153
+knn k40_dist_raw,prediction share,0,0.585,0.101,0.314
+knn k40_dist_raw,confusion inversion,0,0.6577,0.0535,0.2887
+knn k40_dist_raw,EM,0,0.8452,0.0,0.1548
+knn k40_dist_raw,prediction share,1,0.5928,0.1042,0.303
+knn k40_dist_raw,confusion inversion,1,0.6914,0.0,0.3086
+knn k40_dist_raw,EM,1,0.8673,0.0,0.1327
+knn k40_dist_raw,prediction share,2,0.6028,0.1114,0.2858
+knn k40_dist_raw,confusion inversion,2,0.7294,0.0008,0.2698
+knn k40_dist_raw,EM,2,0.8668,0.0,0.1332
+knn k40_dist_raw,prediction share,3,0.5852,0.1008,0.314
+knn k40_dist_raw,confusion inversion,3,0.6458,0.0,0.3542
+knn k40_dist_raw,EM,3,0.8352,0.0,0.1648
+knn k40_dist_raw,prediction share,4,0.5884,0.0906,0.321
+knn k40_dist_raw,confusion inversion,4,0.6882,0.0,0.3118
+knn k40_dist_raw,EM,4,0.8252,0.0,0.1748
+knn k90_dist_pca200,prediction share,0,0.5996,0.0986,0.3018
+knn k90_dist_pca200,confusion inversion,0,0.6875,0.0098,0.3027
+knn k90_dist_pca200,EM,0,0.9109,0.0,0.0891
+knn k90_dist_pca200,prediction share,1,0.6012,0.1032,0.2956
+knn k90_dist_pca200,confusion inversion,1,0.6767,0.0651,0.2582
+knn k90_dist_pca200,EM,1,0.9228,0.0,0.0772
+knn k90_dist_pca200,prediction share,2,0.612,0.1032,0.2848
+knn k90_dist_pca200,confusion inversion,2,0.7376,0.0201,0.2423
+knn k90_dist_pca200,EM,2,0.9246,0.0,0.0754
+knn k90_dist_pca200,prediction share,3,0.5988,0.0958,0.3054
+knn k90_dist_pca200,confusion inversion,3,0.6487,0.0145,0.3368
+knn k90_dist_pca200,EM,3,0.8971,0.0,0.1029
+knn k90_dist_pca200,prediction share,4,0.5972,0.0862,0.3166
+knn k90_dist_pca200,confusion inversion,4,0.6834,0.0,0.3166
+knn k90_dist_pca200,EM,4,0.881,0.0,0.119
+knn k90_man_dist_pca100,prediction share,0,0.5782,0.1018,0.32
+knn k90_man_dist_pca100,confusion inversion,0,0.6361,0.029,0.3349
+knn k90_man_dist_pca100,EM,0,0.8879,0.0,0.1121
+knn k90_man_dist_pca100,prediction share,1,0.579,0.1106,0.3104
+knn k90_man_dist_pca100,confusion inversion,1,0.662,0.0792,0.2587
+knn k90_man_dist_pca100,EM,1,0.9088,0.0,0.0912
+knn k90_man_dist_pca100,prediction share,2,0.5816,0.1198,0.2986
+knn k90_man_dist_pca100,confusion inversion,2,0.6594,0.0532,0.2874
+knn k90_man_dist_pca100,EM,2,0.9154,0.0,0.0846
+knn k90_man_dist_pca100,prediction share,3,0.579,0.1042,0.3168
+knn k90_man_dist_pca100,confusion inversion,3,0.6196,0.0147,0.3657
+knn k90_man_dist_pca100,EM,3,0.8886,0.0,0.1114
+knn k90_man_dist_pca100,prediction share,4,0.5682,0.098,0.3338
+knn k90_man_dist_pca100,confusion inversion,4,0.6558,0.0487,0.2954
+knn k90_man_dist_pca100,EM,4,0.8569,0.0,0.1431
+nn h256_lr1e-3_do0_wd0_adam_raw,prediction share,0,0.401,0.3106,0.2884
+nn h256_lr1e-3_do0_wd0_adam_raw,confusion inversion,0,0.4949,0.2647,0.2404
+nn h256_lr1e-3_do0_wd0_adam_raw,EM,0,0.3904,0.339,0.2706
+nn h256_lr1e-3_do0_wd0_adam_raw,prediction share,1,0.4498,0.2632,0.287
+nn h256_lr1e-3_do0_wd0_adam_raw,confusion inversion,1,0.487,0.309,0.204
+nn h256_lr1e-3_do0_wd0_adam_raw,EM,1,0.478,0.2228,0.2993
+nn h256_lr1e-3_do0_wd0_adam_raw,prediction share,2,0.4734,0.2598,0.2668
+nn h256_lr1e-3_do0_wd0_adam_raw,confusion inversion,2,0.4865,0.256,0.2575
+nn h256_lr1e-3_do0_wd0_adam_raw,EM,2,0.5177,0.2319,0.2504
+nn h256_lr1e-3_do0_wd0_adam_raw,prediction share,3,0.5094,0.2516,0.239
+nn h256_lr1e-3_do0_wd0_adam_raw,confusion inversion,3,0.4994,0.2667,0.2339
+nn h256_lr1e-3_do0_wd0_adam_raw,EM,3,0.5993,0.1961,0.2046
+nn h256_lr1e-3_do0_wd0_adam_raw,prediction share,4,0.4318,0.299,0.2692
+nn h256_lr1e-3_do0_wd0_adam_raw,confusion inversion,4,0.4739,0.2789,0.2473
+nn h256_lr1e-3_do0_wd0_adam_raw,EM,4,0.4303,0.3389,0.2308
+nn h256x64_lr1e-4_do0_wd0_adam_raw,prediction share,0,0.4656,0.274,0.2604
+nn h256x64_lr1e-4_do0_wd0_adam_raw,confusion inversion,0,0.4781,0.2556,0.2663
+nn h256x64_lr1e-4_do0_wd0_adam_raw,EM,0,0.5155,0.2459,0.2386
+nn h256x64_lr1e-4_do0_wd0_adam_raw,prediction share,1,0.4716,0.2666,0.2618
+nn h256x64_lr1e-4_do0_wd0_adam_raw,confusion inversion,1,0.4749,0.3157,0.2094
+nn h256x64_lr1e-4_do0_wd0_adam_raw,EM,1,0.5223,0.2272,0.2504
+nn h256x64_lr1e-4_do0_wd0_adam_raw,prediction share,2,0.4556,0.2688,0.2756
+nn h256x64_lr1e-4_do0_wd0_adam_raw,confusion inversion,2,0.4748,0.2554,0.2698
+nn h256x64_lr1e-4_do0_wd0_adam_raw,EM,2,0.5061,0.2231,0.2708
+nn h256x64_lr1e-4_do0_wd0_adam_raw,prediction share,3,0.477,0.2602,0.2628
+nn h256x64_lr1e-4_do0_wd0_adam_raw,confusion inversion,3,0.491,0.2688,0.2403
+nn h256x64_lr1e-4_do0_wd0_adam_raw,EM,3,0.5329,0.211,0.2561
+nn h256x64_lr1e-4_do0_wd0_adam_raw,prediction share,4,0.442,0.2758,0.2822
+nn h256x64_lr1e-4_do0_wd0_adam_raw,confusion inversion,4,0.4478,0.294,0.2582
+nn h256x64_lr1e-4_do0_wd0_adam_raw,EM,4,0.4781,0.2511,0.2708
+tree d4_ms2_ml1_gini_raw,prediction share,0,0.5264,0.1174,0.3562
+tree d4_ms2_ml1_gini_raw,confusion inversion,0,0.4757,0.0,0.5243
+tree d4_ms2_ml1_gini_raw,EM,0,0.5659,0.0415,0.3926
+tree d4_ms2_ml1_gini_raw,prediction share,1,0.3988,0.2712,0.33
+tree d4_ms2_ml1_gini_raw,confusion inversion,1,0.3123,0.6877,0.0
+tree d4_ms2_ml1_gini_raw,EM,1,0.5017,0.3804,0.118
+tree d4_ms2_ml1_gini_raw,prediction share,2,0.4664,0.2566,0.277
+tree d4_ms2_ml1_gini_raw,confusion inversion,2,0.4332,0.549,0.0178
+tree d4_ms2_ml1_gini_raw,EM,2,0.5497,0.0,0.4503
+tree d4_ms2_ml1_gini_raw,prediction share,3,0.4722,0.3214,0.2064
+tree d4_ms2_ml1_gini_raw,confusion inversion,3,0.5065,0.4935,0.0
+tree d4_ms2_ml1_gini_raw,EM,3,0.5647,0.3516,0.0837
+tree d4_ms2_ml1_gini_raw,prediction share,4,0.4188,0.2826,0.2986
+tree d4_ms2_ml1_gini_raw,confusion inversion,4,0.6465,0.0429,0.3106
+tree d4_ms2_ml1_gini_raw,EM,4,0.5523,0.061,0.3867
+tree d5_ms2_ml1_gini_n9600_raw,prediction share,0,0.4702,0.1572,0.3726
+tree d5_ms2_ml1_gini_n9600_raw,confusion inversion,0,0.5916,0.0509,0.3575
+tree d5_ms2_ml1_gini_n9600_raw,EM,0,0.5629,0.1267,0.3105
+tree d5_ms2_ml1_gini_n9600_raw,prediction share,1,0.3928,0.2924,0.3148
+tree d5_ms2_ml1_gini_n9600_raw,confusion inversion,1,0.4714,0.5286,0.0
+tree d5_ms2_ml1_gini_n9600_raw,EM,1,0.5451,0.2876,0.1673
+tree d5_ms2_ml1_gini_n9600_raw,prediction share,2,0.4284,0.3082,0.2634
+tree d5_ms2_ml1_gini_n9600_raw,confusion inversion,2,0.587,0.1921,0.2209
+tree d5_ms2_ml1_gini_n9600_raw,EM,2,0.4216,0.2772,0.3011
+tree d5_ms2_ml1_gini_n9600_raw,prediction share,3,0.4734,0.2558,0.2708
+tree d5_ms2_ml1_gini_n9600_raw,confusion inversion,3,0.3792,0.6208,0.0
+tree d5_ms2_ml1_gini_n9600_raw,EM,3,0.5354,0.373,0.0916
+tree d5_ms2_ml1_gini_n9600_raw,prediction share,4,0.4746,0.1744,0.351
+tree d5_ms2_ml1_gini_n9600_raw,confusion inversion,4,0.5467,0.0,0.4533
+tree d5_ms2_ml1_gini_n9600_raw,EM,4,0.5566,0.1219,0.3214

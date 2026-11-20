@@ -1,0 +1,32 @@
+{
+  "run_id": "d5_ms2_ml1_gini_n9600_raw",
+  "dataset": "sentiment",
+  "model": "tree",
+  "transform": "raw",
+  "params": {
+    "n_classes": 3,
+    "criterion": "gini",
+    "max_depth": 5,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "n_bins": 64,
+    "max_features": null,
+    "seed": 42
+  },
+  "owner": "p1",
+  "git_commit": "cf7663e-dirty",
+  "timestamp": "2026-11-13T18:11:47",
+  "n_folds": 5,
+  "fold_accs": [
+    0.480833,
+    0.487083,
+    0.4625,
+    0.500417,
+    0.48625
+  ],
+  "mean_acc": 0.48341666666666666,
+  "std_acc": 0.013735472123099512,
+  "fixed_split_val_acc": 0.5016666666666667,
+  "fit_seconds_mean": 20.772156266425736,
+  "notes": "5-fold check"
+}

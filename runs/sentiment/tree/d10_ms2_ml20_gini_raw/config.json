@@ -1,0 +1,26 @@
+{
+  "run_id": "d10_ms2_ml20_gini_raw",
+  "dataset": "sentiment",
+  "model": "tree",
+  "transform": "raw",
+  "params": {
+    "n_classes": 3,
+    "criterion": "gini",
+    "max_depth": 10,
+    "min_samples_split": 2,
+    "min_samples_leaf": 20,
+    "n_bins": 16,
+    "max_features": null,
+    "seed": 42
+  },
+  "seed": 42,
+  "owner": "p2",
+  "git_commit": "1515a16-dirty",
+  "timestamp": "2026-11-05T15:30:42",
+  "train_acc": 0.66,
+  "val_acc": 0.4195833333333333,
+  "fit_seconds": 1.6037593000000925,
+  "predict_seconds": 0.06618049999997311,
+  "model_bytes": 114391,
+  "notes": "tree sweep"
+}

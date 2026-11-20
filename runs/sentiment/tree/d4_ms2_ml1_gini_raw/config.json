@@ -1,0 +1,26 @@
+{
+  "run_id": "d4_ms2_ml1_gini_raw",
+  "dataset": "sentiment",
+  "model": "tree",
+  "transform": "raw",
+  "params": {
+    "n_classes": 3,
+    "criterion": "gini",
+    "max_depth": 4,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "n_bins": 64,
+    "max_features": null,
+    "seed": 42
+  },
+  "seed": 42,
+  "owner": "p2",
+  "git_commit": "75f62f5-dirty",
+  "timestamp": "2026-11-13T15:59:52",
+  "train_acc": 0.5127083333333333,
+  "val_acc": 0.5033333333333333,
+  "fit_seconds": 10.314407799975015,
+  "predict_seconds": 0.07603270001709461,
+  "model_bytes": 409000,
+  "notes": "targeted tree refinement"
+}

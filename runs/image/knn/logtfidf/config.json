@@ -1,0 +1,22 @@
+{
+  "run_id": "logtfidf",
+  "dataset": "image",
+  "model": "knn",
+  "transform": "logtfidf",
+  "params": {
+    "n_classes": 50,
+    "k": 5,
+    "metric": "euclidean",
+    "weights": "uniform"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "65f41d1",
+  "timestamp": "2026-11-05T13:55:19",
+  "train_acc": 0.703125,
+  "val_acc": 0.45225,
+  "fit_seconds": 0.001795958960428834,
+  "predict_seconds": 0.5897307499544695,
+  "model_bytes": 32192407,
+  "notes": "k-NN sweep"
+}

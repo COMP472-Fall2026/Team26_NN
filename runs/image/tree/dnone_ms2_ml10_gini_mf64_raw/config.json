@@ -1,0 +1,26 @@
+{
+  "run_id": "dnone_ms2_ml10_gini_mf64_raw",
+  "dataset": "image",
+  "model": "tree",
+  "transform": "raw",
+  "params": {
+    "n_classes": 50,
+    "criterion": "gini",
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 10,
+    "n_bins": 64,
+    "max_features": 64,
+    "seed": 42
+  },
+  "seed": 42,
+  "owner": "p2",
+  "git_commit": "75f62f5-dirty",
+  "timestamp": "2026-11-13T19:28:53",
+  "train_acc": 0.301875,
+  "val_acc": 0.10325,
+  "fit_seconds": 3.6943869000533596,
+  "predict_seconds": 0.04769140004646033,
+  "model_bytes": 664188,
+  "notes": "targeted image-tree max-features refinement"
+}

@@ -1,0 +1,26 @@
+{
+  "run_id": "d10_ms2_ml1_ent_n9600_raw",
+  "dataset": "sentiment",
+  "model": "tree",
+  "transform": "raw",
+  "params": {
+    "n_classes": 3,
+    "criterion": "entropy",
+    "max_depth": 10,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "n_bins": 64,
+    "max_features": null,
+    "seed": 42
+  },
+  "seed": 42,
+  "owner": "p2",
+  "git_commit": "b3e6c96-dirty",
+  "timestamp": "2026-11-13T12:35:17",
+  "train_acc": 0.7977083333333334,
+  "val_acc": 0.4533333333333333,
+  "fit_seconds": 259.76205060002394,
+  "predict_seconds": 0.08099129993934184,
+  "model_bytes": 479447,
+  "notes": "tree sweep"
+}

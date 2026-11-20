@@ -1,0 +1,22 @@
+{
+  "run_id": "k40_man_standardise",
+  "dataset": "sentiment",
+  "model": "knn",
+  "transform": "standardise",
+  "params": {
+    "n_classes": 3,
+    "k": 40,
+    "metric": "manhattan",
+    "weights": "uniform"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "65f41d1",
+  "timestamp": "2026-11-05T13:47:03",
+  "train_acc": 0.6225,
+  "val_acc": 0.5866666666666667,
+  "fit_seconds": 0.008455958915874362,
+  "predict_seconds": 4.822095540934242,
+  "model_bytes": 59059619,
+  "notes": "k-NN sweep"
+}

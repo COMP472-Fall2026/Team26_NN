@@ -1,0 +1,28 @@
+{
+  "run_id": "k40_dist_raw",
+  "dataset": "sentiment",
+  "model": "knn",
+  "transform": "raw",
+  "params": {
+    "n_classes": 3,
+    "k": 40,
+    "metric": "euclidean",
+    "weights": "distance"
+  },
+  "owner": "p1",
+  "git_commit": "cf7663e-dirty",
+  "timestamp": "2026-11-13T18:01:34",
+  "n_folds": 5,
+  "fold_accs": [
+    0.585833,
+    0.564167,
+    0.577083,
+    0.582917,
+    0.585
+  ],
+  "mean_acc": 0.579,
+  "std_acc": 0.008968501980697631,
+  "fixed_split_val_acc": 0.5908333333333333,
+  "fit_seconds_mean": 0.025564425019547345,
+  "notes": "5-fold check"
+}

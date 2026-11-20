@@ -1,0 +1,27 @@
+{
+  "run_id": "n50_d10_mfsqrt_logtfidf",
+  "dataset": "image",
+  "model": "forest",
+  "transform": "logtfidf",
+  "params": {
+    "n_classes": 50,
+    "n_trees": 50,
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "bootstrap": true,
+    "criterion": "gini",
+    "n_bins": 64,
+    "seed": 42
+  },
+  "seed": 42,
+  "owner": "p2",
+  "git_commit": "c6d00cf-dirty",
+  "timestamp": "2026-11-08T16:20:29",
+  "train_acc": 0.464625,
+  "val_acc": 0.15575,
+  "fit_seconds": 59.21086459996877,
+  "predict_seconds": 4.086709399998654,
+  "model_bytes": 8100026,
+  "notes": "forest sweep"
+}

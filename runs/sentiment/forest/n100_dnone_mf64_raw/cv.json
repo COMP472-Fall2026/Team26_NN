@@ -1,0 +1,33 @@
+{
+  "run_id": "n100_dnone_mf64_raw",
+  "dataset": "sentiment",
+  "model": "forest",
+  "transform": "raw",
+  "params": {
+    "n_classes": 3,
+    "n_trees": 100,
+    "max_depth": null,
+    "max_features": 64,
+    "min_samples_leaf": 1,
+    "bootstrap": true,
+    "criterion": "gini",
+    "n_bins": 64,
+    "seed": 42
+  },
+  "owner": "p1",
+  "git_commit": "cf7663e-dirty",
+  "timestamp": "2026-11-13T18:30:16",
+  "n_folds": 5,
+  "fold_accs": [
+    0.615833,
+    0.585417,
+    0.605833,
+    0.601667,
+    0.589167
+  ],
+  "mean_acc": 0.5995833333333334,
+  "std_acc": 0.012416387021459457,
+  "fixed_split_val_acc": 0.6016666666666667,
+  "fit_seconds_mean": 1357.1738551914227,
+  "notes": "5-fold check"
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "k2_standardise",
+  "dataset": "sentiment",
+  "model": "kmeans",
+  "transform": "standardise",
+  "params": {
+    "n_clusters": 2,
+    "n_init": 10,
+    "max_iter": 300,
+    "tol": 0.0001,
+    "seed": 42
+  },
+  "owner": "p3",
+  "git_commit": "a72453e-dirty",
+  "timestamp": "2026-11-10T14:14:38",
+  "train_ari": 0.014794968327239508,
+  "train_nmi": 0.012630876391139901,
+  "val_ari": 0.011143840223023026,
+  "val_nmi": 0.009888459534321648,
+  "inertia": 7106223.0,
+  "fit_seconds": 16.2808180419961,
+  "notes": "clustering sweep"
+}

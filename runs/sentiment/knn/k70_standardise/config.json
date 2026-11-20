@@ -1,0 +1,22 @@
+{
+  "run_id": "k70_standardise",
+  "dataset": "sentiment",
+  "model": "knn",
+  "transform": "standardise",
+  "params": {
+    "n_classes": 3,
+    "k": 70,
+    "metric": "euclidean",
+    "weights": "uniform"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "65f41d1",
+  "timestamp": "2026-11-05T13:46:33",
+  "train_acc": 0.6060416666666667,
+  "val_acc": 0.5891666666666666,
+  "fit_seconds": 0.0019994580652564764,
+  "predict_seconds": 0.2456219580490142,
+  "model_bytes": 29606807,
+  "notes": "k-NN sweep"
+}

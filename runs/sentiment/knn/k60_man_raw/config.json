@@ -1,0 +1,22 @@
+{
+  "run_id": "k60_man_raw",
+  "dataset": "sentiment",
+  "model": "knn",
+  "transform": "raw",
+  "params": {
+    "n_classes": 3,
+    "k": 60,
+    "metric": "manhattan",
+    "weights": "uniform"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "65f41d1",
+  "timestamp": "2026-11-05T13:46:06",
+  "train_acc": 0.6086458333333333,
+  "val_acc": 0.5866666666666667,
+  "fit_seconds": 0.006791666965000331,
+  "predict_seconds": 4.698923290940002,
+  "model_bytes": 59059619,
+  "notes": "k-NN sweep"
+}

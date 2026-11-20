@@ -1,0 +1,28 @@
+{
+  "run_id": "k90_man_dist_pca100",
+  "dataset": "sentiment",
+  "model": "knn",
+  "transform": "pca100",
+  "params": {
+    "n_classes": 3,
+    "k": 90,
+    "metric": "manhattan",
+    "weights": "distance"
+  },
+  "owner": "p1",
+  "git_commit": "cf7663e-dirty",
+  "timestamp": "2026-11-13T18:01:41",
+  "n_folds": 5,
+  "fold_accs": [
+    0.602917,
+    0.579583,
+    0.59,
+    0.594167,
+    0.575
+  ],
+  "mean_acc": 0.5883333333333333,
+  "std_acc": 0.011222961334296361,
+  "fixed_split_val_acc": 0.5908333333333333,
+  "fit_seconds_mean": 0.0024310084292665122,
+  "notes": "5-fold check"
+}

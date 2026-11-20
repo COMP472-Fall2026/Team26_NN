@@ -1,0 +1,37 @@
+{
+  "run_id": "final",
+  "source_run": "h256x64_lr1e-4_do0_wd0_adam_raw",
+  "dataset": "sentiment",
+  "model": "nn",
+  "transform": "raw",
+  "params": {
+    "n_classes": 3,
+    "hidden": [
+      256,
+      64
+    ],
+    "activation": "relu",
+    "dropout": 0.0,
+    "lr": 0.0001,
+    "weight_decay": 0.0,
+    "optimizer": "adam",
+    "batch_size": 64,
+    "max_epochs": 16,
+    "patience": 15,
+    "seed": 42
+  },
+  "seed": 42,
+  "owner": "p3",
+  "git_commit": "3d830f7-dirty",
+  "timestamp": "2026-11-19T18:46:28",
+  "n_train": 12000,
+  "fit_seconds": 4.9408727919999365,
+  "predict_seconds": 0.009908332998747937,
+  "model_bytes": 858379,
+  "test_pred_share": [
+    0.461,
+    0.2362,
+    0.3028
+  ],
+  "notes": "retrained on all 12000 training rows; validation acc of h256x64_lr1e-4_do0_wd0_adam_raw: 0.6679; fixed 16 epochs"
+}

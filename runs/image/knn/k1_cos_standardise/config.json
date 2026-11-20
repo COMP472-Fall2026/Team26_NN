@@ -1,0 +1,22 @@
+{
+  "run_id": "k1_cos_standardise",
+  "dataset": "image",
+  "model": "knn",
+  "transform": "standardise",
+  "params": {
+    "n_classes": 50,
+    "k": 1,
+    "metric": "cosine",
+    "weights": "uniform"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "65f41d1",
+  "timestamp": "2026-11-05T13:52:26",
+  "train_acc": 1.0,
+  "val_acc": 0.534,
+  "fit_seconds": 0.003066499950364232,
+  "predict_seconds": 0.14365945803001523,
+  "model_bytes": 64128416,
+  "notes": "k-NN sweep"
+}

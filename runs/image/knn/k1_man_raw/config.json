@@ -1,0 +1,22 @@
+{
+  "run_id": "k1_man_raw",
+  "dataset": "image",
+  "model": "knn",
+  "transform": "raw",
+  "params": {
+    "n_classes": 50,
+    "k": 1,
+    "metric": "manhattan",
+    "weights": "uniform"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "65f41d1",
+  "timestamp": "2026-11-05T13:51:43",
+  "train_acc": 1.0,
+  "val_acc": 0.39325,
+  "fit_seconds": 0.006269000004976988,
+  "predict_seconds": 8.267824625014327,
+  "model_bytes": 64128419,
+  "notes": "k-NN sweep"
+}

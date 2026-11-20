@@ -1,0 +1,27 @@
+{
+  "run_id": "final",
+  "source_run": "k40_dist_raw",
+  "dataset": "sentiment",
+  "model": "knn",
+  "transform": "raw",
+  "params": {
+    "n_classes": 3,
+    "k": 40,
+    "metric": "euclidean",
+    "weights": "distance"
+  },
+  "seed": 42,
+  "owner": "p1",
+  "git_commit": "3d830f7-dirty",
+  "timestamp": "2026-11-19T19:01:47",
+  "n_train": 12000,
+  "fit_seconds": 0.00643083300019498,
+  "predict_seconds": 1.7500294170004054,
+  "model_bytes": 37008408,
+  "test_pred_share": [
+    0.5858,
+    0.1022,
+    0.312
+  ],
+  "notes": "retrained on all 12000 training rows; validation acc of k40_dist_raw: 0.5908"
+}

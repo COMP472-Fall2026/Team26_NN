@@ -1,0 +1,33 @@
+{
+  "run_id": "n100_dnone_mfsqrt_logtfidf",
+  "dataset": "image",
+  "model": "forest",
+  "transform": "logtfidf",
+  "params": {
+    "n_classes": 50,
+    "n_trees": 100,
+    "max_depth": null,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "bootstrap": true,
+    "criterion": "gini",
+    "n_bins": 64,
+    "seed": 42
+  },
+  "owner": "p1",
+  "git_commit": "cf7663e-dirty",
+  "timestamp": "2026-11-13T18:09:14",
+  "n_folds": 5,
+  "fold_accs": [
+    0.28725,
+    0.28625,
+    0.29675,
+    0.28275,
+    0.2925
+  ],
+  "mean_acc": 0.2891,
+  "std_acc": 0.005521548695791789,
+  "fixed_split_val_acc": 0.285,
+  "fit_seconds_mean": 428.37002317497974,
+  "notes": "5-fold check"
+}
